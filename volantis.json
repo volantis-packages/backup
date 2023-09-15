@@ -1,0 +1,17 @@
+{
+    "name": "volantis/backup",
+    "type": "package",
+    "description": "",
+    "website": "https://volantis.dev",
+    "authors": [{
+        "name": "Ben McClure",
+        "email": "ben@volantisdev.com"
+    }],
+    "require": {
+        "volantis/entity": "^1.0 || dev-main",
+        "volantis/version": "^1.0 || dev-main"
+    },
+    "libraries": {
+        "Backup": "lib"
+    }
+}
